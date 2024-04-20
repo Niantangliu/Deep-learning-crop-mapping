@@ -16,11 +16,11 @@ Optimized for analyzing sequential data, this model is ideal for extracting feat
 ## 3D-CNN (Three-Dimensional Convolutional Neural Network): 
 Designed to interpret volumetric data, enabling the analysis of spatial-temporal patterns in multi-temporal imagery.
 ## AtLSTM (Attention-based Long Short-Term Memory): 
-A type of recurrent neural network with an attention operation, capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
+A type of recurrent neural network with an attention operation capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
 ## ConvRNN (Convolutional Recurrent Neural Network): 
 Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
 ## Attention 3D U-net: 
-An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
+An adaptation of the U-Net architecture that works with volumetric data, suitable for detailed segmentation tasks in 3D remote sensing images and adapted here for high-resolution crop classification.
 ## Model ensemble learning and hybrid architectures
 Ensemble learning jointly combines multiple models to improve accuracy, robustness, and generalisation beyond what single models achieve. Ensemble methods help reduce overfitting and enhance prediction capabilities on complex datasets. Hybrid architectures merge different types of neural networks or combine neural networks in order, such as using CNNs' outputs as inputs into RNNs.
 
