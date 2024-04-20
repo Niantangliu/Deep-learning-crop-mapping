@@ -1,9 +1,9 @@
 # Deep Learning for Crop Mapping
 
-Welcome to our repository where we explore the cutting-edge of deep learning architectures applied to crop mapping. This project aims to enhance crop classification accuracy by using the power of AI.
+Welcome to our repository, where we explore the cutting-edge deep learning architectures applied to crop mapping. This project aims to enhance crop classification accuracy by using the power of AI.
 
 # Overview
-This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, our goal is to compare their effectiveness and accuracy in real-world scenarios, contributing to the optimasation of crop type predictions and land use efficiency.
+This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, we aim to compare their effectiveness and accuracy in real-world scenarios, contributing to optimising crop type predictions and land use efficiency.
 
 # Models Explored
 ## 1D-CNN (Convolutional Neural Networks): 
@@ -37,7 +37,7 @@ By analyzing the gradients, we explore which features (e.g., satellite-derived f
 
 
 # Dataset
-The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by the Chinese Academy of Agriculture Science (CAAS). Due to the large data volume, the preprocessed data for model training and evaluation is not directly provided here, but we will keep uploading demo datasets and updating this repository accordingly.
+The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by the Chinese Academy of Agriculture Science (CAAS). Due to the large data volume, the preprocessed data for model training and evaluation is not directly provided here. Still, we will keep uploading demo datasets and updating this repository accordingly.
 
 # Tools and Technologies
 TensorFlow
