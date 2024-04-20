@@ -6,14 +6,22 @@ Welcome to our repository where we explore the cutting-edge of deep learning arc
 This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, our goal is to compare their effectiveness and accuracy in real-world scenarios, contributing to the optimasation of crop type predictions and land use efficiency.
 
 # Models Explored
-## 1D-CNN (Convolutional Neural Networks): Tailored for processing 2D imagery, used to capture spatial hierarchies in data.
-## RNN (Recurrent Neural Networks): Applied to temporal sequences, ideal for analyzing changes over time in crop growth.
-## Transformer Models: Utilized for large-scale and high-resolution imagery, focusing on capturing complex, long-range dependencies.
-## 1D-CNN (One-Dimensional Convolutional Neural Network): Optimized for analyzing sequential data, this model is ideal for extracting features from temporal profiles of crop growth captured in time-series satellite data.
-## 3D-CNN (Three-Dimensional Convolutional Neural Network): Designed to interpret volumetric data, enabling the analysis of spatial-temporal patterns in multi-temporal imagery.
-## LSTM (Long Short-Term Memory): A type of recurrent neural network capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
-## ConvRNN (Convolutional Recurrent Neural Network): Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
-## 3D-Unet: An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
+## 1D-CNN (Convolutional Neural Networks): 
+Tailored for processing 2D imagery, used to capture spatial hierarchies in data.
+## RNN (Recurrent Neural Networks): 
+Applied to temporal sequences, ideal for analyzing changes over time in crop growth.
+## Transformer: 
+Utilized for large-scale and high-resolution imagery, focusing on capturing complex, long-range dependencies.
+## 1D-CNN (One-Dimensional Convolutional Neural Network): 
+Optimized for analyzing sequential data, this model is ideal for extracting features from temporal profiles of crop growth captured in time-series satellite data.
+## 3D-CNN (Three-Dimensional Convolutional Neural Network): 
+Designed to interpret volumetric data, enabling the analysis of spatial-temporal patterns in multi-temporal imagery.
+## LSTM (Long Short-Term Memory): 
+A type of recurrent neural network capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
+## ConvRNN (Convolutional Recurrent Neural Network): 
+Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
+## 3D-Unet: 
+An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
 
 # Model interpretation
 To deepen our understanding of the models' decision-making processes and improve their transparency and usability, we explore model interpretation from three perspectives:
