@@ -40,7 +40,8 @@ By analyzing the gradients, we explore which features (e.g., satellite-derived f
 # Dataset
 The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by the Chinese Academy of Agriculture Science (CAAS). Due to the large data volume, the preprocessed data for model training and evaluation is not directly provided here. Still, we will keep uploading demo datasets and updating this repository accordingly.  
 
-Datasets are used for model training, validating and testing:    
+Datasets are used for model training, validating and testing: 
+  
 Please download the dataset (Sentinel-1 m-chi, dataset split required) used in Chapter 3: https://drive.google.com/file/d/1-4XBXDrC6QwBBwflJI2-a8O4fQ0DDxRm/view?usp=drive_link  
 Please download the dataset used in Chapter 4 (Sentinel-1 m-chi + Sentinel-2 spectral bands): https://drive.google.com/drive/folders/10q7QIbHrfQMS1TrDBgPeJFWbr5u4LO-g?usp=drive_link
 
