@@ -33,6 +33,10 @@ The datasets used in this project are sourced from public satellite imagery (mai
 
 # Tools and Technologies
 TensorFlow
+numpy
+pandas
+scikit-learn
+jupyter
 
 # Getting Started
 Clone this repo to begin exploring different neural networks' performance on crop mapping. Installation guidelines, usage instructions, and detailed documentation are provided for setting up your environment and running the models.
