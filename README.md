@@ -6,8 +6,7 @@ Welcome to our repository, where we explore the cutting-edge deep learning archi
 This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, we aim to compare their effectiveness and accuracy in real-world scenarios, contributing to optimising crop type predictions and land use efficiency.
 
 # Models Explored
-## 1D-CNN (Convolutional Neural Networks): 
-Tailored for processing 2D imagery, used to capture spatial hierarchies in data.
+
 ## RNN (Recurrent Neural Networks): 
 Applied to temporal sequences, ideal for analyzing changes over time in crop growth.
 ## Transformer: 
@@ -22,6 +21,8 @@ A type of recurrent neural network with an attention operation, capable of learn
 Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
 ## Attention 3D U-net: 
 An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
+## Model ensemble learning and hybrid architectures
+Ensemble learning jointly combines multiple models to improve accuracy, robustness, and generalisation beyond what single models achieve. Ensemble methods help reduce overfitting and enhance prediction capabilities on complex datasets. Hybrid architectures merge different types of neural networks or combine neural networks in order, such as using CNNs' outputs as inputs into RNNs.
 
 # Model interpretation
 To deepen our understanding of the models' decision-making processes and improve their transparency and usability, we explore model interpretation from three perspectives:
