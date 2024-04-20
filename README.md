@@ -2,25 +2,43 @@
 
 Welcome to our repository where we explore the cutting-edge of deep learning architectures applied to crop mapping. This project aims to enhance crop classification accuracy by using the power of AI.
 
-Overview
+# Overview
 This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, our goal is to compare their effectiveness and accuracy in real-world scenarios, contributing to the optimasation of crop type predictions and land use efficiency.
 
-Models Explored
+# Models Explored
 1D-CNN (Convolutional Neural Networks): Tailored for processing 2D imagery, used to capture spatial hierarchies in data.
 RNN (Recurrent Neural Networks): Applied to temporal sequences, ideal for analyzing changes over time in crop growth.
 Transformer Models: Utilized for large-scale and high-resolution imagery, focusing on capturing complex, long-range dependencies.
+1D-CNN (One-Dimensional Convolutional Neural Network): Optimized for analyzing sequential data, this model is ideal for extracting features from temporal profiles of crop growth captured in time-series satellite data.
+3D-CNN (Three-Dimensional Convolutional Neural Network): Designed to interpret volumetric data, enabling the analysis of spatial-temporal patterns in multi-temporal imagery.
+LSTM (Long Short-Term Memory): A type of recurrent neural network capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
+ConvRNN (Convolutional Recurrent Neural Network): Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
+3D-Unet: An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
 
-Dataset
-The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by Chinses Academy of Agriculture Science (CAAS).
+# Model interpretation
+To deepen our understanding of the models' decision-making processes and improve their transparency and usability, we explore model interpretation from three perspectives:
 
-Tools and Technologies
+1. Unveiling Model Learning Behavior
+We analyze how models evolve during training, focusing on understanding the changes in their internal state across convolutional layers and time series. 
+
+2. Soft Output (Prediction Confidence)
+We examine the confidence levels of the model predictions to assess their reliability. 
+
+3. Gradients for visualising Important Features and Acquisition Dates
+By analyzing the gradients, we explore which features (e.g., satellite-derived features, temporal windows) contribute most to the model's predictions.
+
+
+# Dataset
+The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by the Chinese Academy of Agriculture Science (CAAS).
+
+# Tools and Technologies
 TensorFlow
 
-Getting Started
+# Getting Started
 Clone this repo to begin exploring different neural networks' performance on crop mapping. Installation guidelines, usage instructions, and detailed documentation are provided for setting up your environment and running the models.
 
-Contribution
+# Contribution
 Contributions are welcome! If you have suggestions for new models, improvements in the existing ones, or additional datasets, please feel free to open an issue or submit a pull request.
 
-License
+# License
 This project is released under the MIT License. Please refer to the LICENSE file for more details.
