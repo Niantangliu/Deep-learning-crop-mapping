@@ -41,7 +41,11 @@ By analyzing the gradients, we explore which features (e.g., satellite-derived f
 The datasets used in this project are sourced from public satellite imagery (mainly Sentinel-1 and Sentinel-2) and agricultural surveys conducted by the Chinese Academy of Agriculture Science (CAAS). Due to the large data volume, the preprocessed data for model training and evaluation is not directly provided here. Still, we will keep uploading demo datasets and updating this repository accordingly.
 
 # Tools and Technologies
-TensorFlow.\nnumpy.\npandas.\nscikit-learn.\njupyter.\n
+TensorFlow  
+numpy  
+pandas  
+scikit-learn  
+jupyter  
 
 # Getting Started
 Clone this repo to begin exploring different neural networks' performance on crop mapping. Installation guidelines, usage instructions, and detailed documentation are provided for setting up your environment and running the models.
