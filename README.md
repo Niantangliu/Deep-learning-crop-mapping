@@ -16,11 +16,11 @@ Utilized for large-scale and high-resolution imagery, focusing on capturing comp
 Optimized for analyzing sequential data, this model is ideal for extracting features from temporal profiles of crop growth captured in time-series satellite data.
 ## 3D-CNN (Three-Dimensional Convolutional Neural Network): 
 Designed to interpret volumetric data, enabling the analysis of spatial-temporal patterns in multi-temporal imagery.
-## LSTM (Long Short-Term Memory): 
-A type of recurrent neural network capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
+## AtLSTM (Attention-based Long Short-Term Memory): 
+A type of recurrent neural network with an attention operation, capable of learning order dependence in sequence prediction problems, particularly useful for time-series prediction in crop development.
 ## ConvRNN (Convolutional Recurrent Neural Network): 
 Combines CNNs and RNNs to interpret spatial and temporal data simultaneously, providing a robust framework for dynamic environmental understanding.
-## 3D-Unet: 
+## Attention 3D U-net: 
 An adaptation of the U-Net architecture that works with volumetric data, perfect for detailed segmentation tasks in 3D medical images and adapted here for high-resolution crop classification.
 
 # Model interpretation
