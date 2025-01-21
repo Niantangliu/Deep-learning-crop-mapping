@@ -5,6 +5,9 @@ Welcome to our repository, where we explore the cutting-edge deep learning archi
 # Overview
 This repository contains a series of experiments and implementations of various deep learning models designed to identify, classify, and map different crop types using satellite imagery. By integrating different architectures, we aim to compare their effectiveness and accuracy in real-world scenarios, contributing to optimising crop type predictions and land use efficiency.
 
+# Manuscript
+The folder 'Chapter 3' is for our TGRS Manuscript: "Enhanced crop mapping using polarimetric SAR features and time series deep learning: A case study in Bei’an, China".
+
 # Models Explored
 
 ## RNN (Recurrent Neural Networks): 
